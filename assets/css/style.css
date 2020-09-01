@@ -492,6 +492,19 @@ section {
   border: 2px solid #1f5297;
 }
 
+.hiddenMessage{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 376px ){
+  .myResume{
+    visibility: hidden;
+  }
+  .hiddenMessage{
+    visibility: visible;
+  }
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
